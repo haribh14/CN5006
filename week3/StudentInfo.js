@@ -1,7 +1,7 @@
 const dateofBirth= "12/12/1980"
-const getStudentName =
+const getStudentName = () =>
 {
-() =>
+
 return "write your name here"
 }
 const getCampusName = () =>
