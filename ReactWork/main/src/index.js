@@ -3,18 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GreetingElementwithProp from '../../nop/src/Mygreetingprop';
+import GreetingElementwithProp from './Mygreetingprop';
+import AppColor from './AppbackgroundColor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     <GreetingElementwithProp msg="Hi, it’s Monday" />
+    <GreetingElementwithProp msg="Hi, it’s Monday" />
     <GreetingElementwithProp msg="Hi, it’s Tuesday" />
     <GreetingElementwithProp msg="Hi, it’s Wednesday" />
     <GreetingElementwithProp msg="Hi, it’s Thursday" />
     <GreetingElementwithProp msg="Hi, it’s Friday" />
     <GreetingElementwithProp msg="Hi, it’s Saturday" />
     <GreetingElementwithProp msg="Hi, it’s Sunday" />
+    <AppColor heading="This is first element" lbl="Name :" color="green"/>
+ <AppColor heading="This is second element" lbl="Name :" color="blue"/>
+ <AppColor heading="This is third third element" lbl="Name :" color="Yellow"/>
   </React.StrictMode>
 );
 
